@@ -38,10 +38,10 @@ void loop() {
   tempC = sensors.getTempCByIndex(0);
 
  
-  if (tempC > 15) {
+  if (tempC > 8) {
     peltierState = true;   
   } 
-  else if (tempC < 10) {
+  else if (tempC < 2) {
     peltierState = false;  
   }
 
